@@ -35,7 +35,7 @@
 
     img:nth-child(3) {
       position: absolute;
-      display: none;
+    //   display: none;
       top: 3%;
       left: 33%;
 
@@ -43,10 +43,11 @@
     }
     .long_icon {
       position: absolute;
-      top: -130px;
-      left: 40px;
-      width: 75%;
+      top: -100px;
+      left: 50px;
+      width: 70%;
       z-index: 4;
+      display: none;
       // transform: translateY(-100%);
     }
     p,
@@ -139,7 +140,7 @@
 
   .signup {
     position: relative;
-    background-color: orange;
+    background-color: white;
     position: absolute;
     top: 240px;
     left: 0;
@@ -153,6 +154,11 @@
     font-size: 16px;
     z-index: 2;
     // transform: translateX(-100%);
+    .left__arrow{
+        position: absolute;
+        top: -60px;
+        left: 10%;
+    }
     .signup__form {
       display: flex;
       flex-direction: column;
